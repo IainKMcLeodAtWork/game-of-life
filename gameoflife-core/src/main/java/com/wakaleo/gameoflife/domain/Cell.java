@@ -11,6 +11,8 @@ public enum Cell {
 	// Symbols to represent cell status
     LIVE_CELL("*"), DEAD_CELL(".");
 
+    // a spurious comment
+
     private String symbol;
 
     private Cell(final String initialSymbol) {
